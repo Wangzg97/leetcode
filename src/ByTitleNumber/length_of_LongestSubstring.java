@@ -30,7 +30,7 @@ public class length_of_LongestSubstring {
 
     /********************************************************************/
 
-    // 滑动窗口
+    // 滑动窗口。时间复杂度：O(2n) = O(n)    空间复杂度：O(min(m, n))O(min(m,n))
     public int lengthOfLongestSubstring2(String s){
         int n = s.length();
         Set<Character> set = new HashSet<>();
