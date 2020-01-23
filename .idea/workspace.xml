@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="51535076-ceea-482b-9939-854070b227e7" name="Default Changelist" comment="无重复字符的最长子串">
-      <change afterPath="$PROJECT_DIR$/src/ByTitleNumber/length_of_LongestSubstring.java" afterDir="false" />
+    <list default="true" id="51535076-ceea-482b-9939-854070b227e7" name="Default Changelist" comment="两数之和">
+      <change afterPath="$PROJECT_DIR$/src/ByTitleNumber/findMedianSortedArrays.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ByTitleNumber/myAtoi.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -74,7 +75,10 @@
       <updated>1578982270195</updated>
       <workItem from="1578982271793" duration="667000" />
       <workItem from="1578983071339" duration="3121000" />
-      <workItem from="1579068819394" duration="4462000" />
+      <workItem from="1579068819394" duration="4801000" />
+      <workItem from="1579172757376" duration="4638000" />
+      <workItem from="1579352836964" duration="1545000" />
+      <workItem from="1579778200873" duration="4312000" />
     </task>
     <task id="LOCAL-00001" summary="leetcode刷题笔记">
       <created>1578983830898</created>
@@ -118,7 +122,49 @@
       <option name="project" value="LOCAL" />
       <updated>1579070024185</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="无重复字符的最长子串">
+      <created>1579074518251</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1579074518251</updated>
+    </task>
+    <task id="LOCAL-00008" summary="无重复字符的最长子串">
+      <created>1579074643579</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1579074643579</updated>
+    </task>
+    <task id="LOCAL-00009" summary="最长回文子串">
+      <created>1579176539990</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1579176539990</updated>
+    </task>
+    <task id="LOCAL-00010" summary="两数之和">
+      <created>1579183786067</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1579183786067</updated>
+    </task>
+    <task id="LOCAL-00011" summary="说明">
+      <created>1579183916755</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1579183916755</updated>
+    </task>
+    <task id="LOCAL-00012" summary="整数反转">
+      <created>1579354276831</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1579354276831</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -137,7 +183,11 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="leetcode刷题笔记" />
     <MESSAGE value="无重复字符的最长子串" />
-    <option name="LAST_COMMIT_MESSAGE" value="无重复字符的最长子串" />
+    <MESSAGE value="最长回文子串" />
+    <MESSAGE value="两数之和" />
+    <MESSAGE value="说明" />
+    <MESSAGE value="整数反转" />
+    <option name="LAST_COMMIT_MESSAGE" value="整数反转" />
   </component>
   <component name="WindowStateProjectService">
     <state x="361" y="78" key="#Project_Structure" timestamp="1578983367491">
@@ -148,10 +198,10 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="223" y="74" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.834@0.0.1536.834" timestamp="1579070065545" />
-    <state x="401" y="11" key="CommitChangelistDialog2" timestamp="1579074517753">
+    <state x="401" y="11" key="CommitChangelistDialog2" timestamp="1579354276096">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="401" y="11" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1579074517753" />
+    <state x="401" y="11" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1579354276096" />
     <state x="147" y="62" width="1228" height="697" key="DiffContextDialog" timestamp="1579070101028">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -168,14 +218,14 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="581" y="122" key="Github.UntrackedFilesDialog/0.0.1536.834@0.0.1536.834" timestamp="1578983317173" />
-    <state x="361" y="152" key="Vcs.Push.Dialog.v2" timestamp="1579074520495">
+    <state x="361" y="152" key="Vcs.Push.Dialog.v2" timestamp="1579354279314">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="361" y="152" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1579074520495" />
-    <state x="477" y="244" key="com.intellij.ide.util.TipDialog" timestamp="1579068819348">
+    <state x="361" y="152" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1579354279314" />
+    <state x="477" y="244" key="com.intellij.ide.util.TipDialog" timestamp="1579778242498">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="477" y="244" key="com.intellij.ide.util.TipDialog/0.0.1536.834@0.0.1536.834" timestamp="1579068819348" />
+    <state x="477" y="244" key="com.intellij.ide.util.TipDialog/0.0.1536.834@0.0.1536.834" timestamp="1579778242498" />
     <state x="431" y="155" width="672" height="678" key="search.everywhere.popup" timestamp="1579069770881">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
