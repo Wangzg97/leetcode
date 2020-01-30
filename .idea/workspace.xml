@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="51535076-ceea-482b-9939-854070b227e7" name="Default Changelist" comment="两数之和">
       <change afterPath="$PROJECT_DIR$/src/ByTitleNumber/findMedianSortedArrays.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ByTitleNumber/myAtoi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ByTitleNumber/isPalindrome.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -78,7 +78,9 @@
       <workItem from="1579068819394" duration="4801000" />
       <workItem from="1579172757376" duration="4638000" />
       <workItem from="1579352836964" duration="1545000" />
-      <workItem from="1579778200873" duration="4312000" />
+      <workItem from="1579778200873" duration="4506000" />
+      <workItem from="1579930538503" duration="1869000" />
+      <workItem from="1580385680044" duration="1053000" />
     </task>
     <task id="LOCAL-00001" summary="leetcode刷题笔记">
       <created>1578983830898</created>
@@ -164,7 +166,14 @@
       <option name="project" value="LOCAL" />
       <updated>1579354276831</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="字符串转换整数 (atoi)">
+      <created>1579783565945</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1579783565945</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -187,7 +196,8 @@
     <MESSAGE value="两数之和" />
     <MESSAGE value="说明" />
     <MESSAGE value="整数反转" />
-    <option name="LAST_COMMIT_MESSAGE" value="整数反转" />
+    <MESSAGE value="字符串转换整数 (atoi)" />
+    <option name="LAST_COMMIT_MESSAGE" value="字符串转换整数 (atoi)" />
   </component>
   <component name="WindowStateProjectService">
     <state x="361" y="78" key="#Project_Structure" timestamp="1578983367491">
@@ -198,10 +208,10 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="223" y="74" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.834@0.0.1536.834" timestamp="1579070065545" />
-    <state x="401" y="11" key="CommitChangelistDialog2" timestamp="1579354276096">
+    <state x="401" y="11" key="CommitChangelistDialog2" timestamp="1579783565271">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="401" y="11" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1579354276096" />
+    <state x="401" y="11" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1579783565271" />
     <state x="147" y="62" width="1228" height="697" key="DiffContextDialog" timestamp="1579070101028">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -218,17 +228,21 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="581" y="122" key="Github.UntrackedFilesDialog/0.0.1536.834@0.0.1536.834" timestamp="1578983317173" />
-    <state x="361" y="152" key="Vcs.Push.Dialog.v2" timestamp="1579354279314">
+    <state width="498" height="447" key="SwitcherDM" timestamp="1579932028253">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="361" y="152" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1579354279314" />
-    <state x="477" y="244" key="com.intellij.ide.util.TipDialog" timestamp="1579778242498">
+    <state width="498" height="447" key="SwitcherDM/0.0.1536.834@0.0.1536.834" timestamp="1579932028253" />
+    <state x="361" y="152" key="Vcs.Push.Dialog.v2" timestamp="1579783568446">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="477" y="244" key="com.intellij.ide.util.TipDialog/0.0.1536.834@0.0.1536.834" timestamp="1579778242498" />
-    <state x="431" y="155" width="672" height="678" key="search.everywhere.popup" timestamp="1579069770881">
+    <state x="361" y="152" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1579783568446" />
+    <state x="477" y="244" key="com.intellij.ide.util.TipDialog" timestamp="1580385714592">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="431" y="155" width="672" height="678" key="search.everywhere.popup/0.0.1536.834@0.0.1536.834" timestamp="1579069770881" />
+    <state x="477" y="244" key="com.intellij.ide.util.TipDialog/0.0.1536.834@0.0.1536.834" timestamp="1580385714592" />
+    <state x="431" y="155" width="672" height="678" key="search.everywhere.popup" timestamp="1579932023269">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="431" y="155" width="672" height="678" key="search.everywhere.popup/0.0.1536.834@0.0.1536.834" timestamp="1579932023269" />
   </component>
 </project>
